@@ -20,6 +20,20 @@
 
     </properties>
 
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog.devtraining.com-releases</name>
+        <url>http://52.91.167.134:8081/artifactory/java-test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.devtraining.com-snapshots</name>
+        <url>http://52.91.167.134:8081/artifactory/java-test</url>
+    </snapshotRepository>
+</distributionManagement>
+
+
     
   
     
